@@ -20,19 +20,6 @@
 - Offline-first (localStorage), responsive, προσβάσιμο (ARIA labels, keyboard navigation).
 - Privacy-first analytics με Cloudflare Web Analytics (χωρίς cookies).
 
-## Deploy σε Cloudflare Pages
-
-1. Ανέβασε τον φάκελο σε GitHub repo.
-2. Cloudflare dashboard → **Workers & Pages** → *Create* → *Pages* → *Connect to Git*.
-3. Διάλεξε το repo. **Build command:** (κενό). **Output directory:** `/`.
-4. *Deploy* → live στο `<name>.pages.dev` με δωρεάν HTTPS.
-5. Κάθε `git push` κάνει αυτόματο re-deploy (CI/CD).
-
-### Analytics
-
-Cloudflare → **Web Analytics** → πρόσθεσε το site → αντίγραψε το token → ξεσχολίασε το beacon
-`<script>` στο τέλος του `index.html` βάζοντας το token σου.
-
 ## Author
 
 Built by **[Marios Giannoulis](https://www.linkedin.com/in/marios-giannoulis-129576289/)**
